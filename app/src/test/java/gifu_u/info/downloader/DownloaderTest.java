@@ -54,6 +54,8 @@ public class DownloaderTest {
 
         // TODO 課題： 上の testDownload を参考に，ダウンロードができなかったことを確認する処理を書け．
         // ヒント: assertFalse や assertNull といったメソッドが使える．
+        
+        assertTrue( false ); // この行は削除してください
     }
 
     /*
@@ -66,7 +68,8 @@ public class DownloaderTest {
         // TODO 課題： 上の testDownload を参考に，ダウンロード禁止指定が解除できていることを確認するテストを書け．
         // ヒント: 一度 d.addBanned() で禁止ドメインを追加し，すぐに d.removeBanned() で解除した後，
         // d.download() で，ダウンロードができることを確認すればよい．
-
+        
+        assertTrue( false ); // この行は削除してください
     }
 
 }
