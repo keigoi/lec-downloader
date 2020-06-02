@@ -14,15 +14,6 @@ import static org.junit.Assert.assertTrue;
  */
 public class DownloaderTest {
 
-    /**
-     * プロキシ設定（岐阜大学内専用...）
-     */
-    @Before
-    public void setUp() {
-        //Properties systemProperties = System.getProperties();
-        //systemProperties.setProperty("http.proxyHost", "proxy.eng.gifu-u.local");
-        //systemProperties.setProperty("http.proxyPort", "10080");
-    }
     /*
      * テスト：禁止されていないURLでのダウンロードができる
      */
